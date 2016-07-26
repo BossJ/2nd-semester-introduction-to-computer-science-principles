@@ -5,9 +5,9 @@
 ```python
     a = 100
     difficulty_level= 7
-    if a > 85 and b > 7:
+    if a > 85 and difficulty_level > 7:
         print("Stellar Grade")
-    elif a <= 85 and b <= 7: 
+    elif a <= 85 and difficulty_level <= 7: 
         print("okay grade")
     else: 
         print("pretty good grade") 
